@@ -1,0 +1,39 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form > h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.login__form > input {
+  min-width: 380px;
+  padding: 20px 0;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+.submit__btn {
+  background-color: rgb(28, 26, 26);
+  color: white;
+  width: 30vw;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px;
+}
